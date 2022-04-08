@@ -9,6 +9,8 @@ setup(
     install_requires=[#'gym',
                       'numpy',
                       #'mujoco_py',
+                      'tqdm',
+                      'imageio',
                       'gym @ git+https://github.com/bstadie/gym',
                       'mujoco',
                       #'pybullet',
