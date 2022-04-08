@@ -1,7 +1,13 @@
-# D4RL: Datasets for Deep Data-Driven Reinforcement Learning
+# D4RL + New MuJoCo Bindings
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 [![License](https://licensebuttons.net/l/by/3.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+
+
+This is a fork of D4RL that is designed to work with the new [DeepMind MuJoCo Bindings](https://github.com/deepmind/mujoco). 
+It will use a custom fork of gym that uses those bindings. This is designed as a hacky workaround for the time being until 
+a more stable solution can be found. 
+
 
 D4RL is an open-source benchmark for offline reinforcement learning. It provides standardized environments and datasets for training and benchmarking algorithms. A supplementary [whitepaper](https://arxiv.org/abs/2004.07219) and [website](https://sites.google.com/view/d4rl/home) are also available.
 
