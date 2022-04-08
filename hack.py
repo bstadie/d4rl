@@ -17,7 +17,7 @@ def get_half_cheetah():
     entry_point='d4rl.gym_mujoco.gym_envs:get_cheetah_env',
     max_episode_steps=1000,
     kwargs={
-        'deprecated': True,
+        'deprecated': False,
         'ref_min_score': HALFCHEETAH_RANDOM_SCORE,
         'ref_max_score': HALFCHEETAH_EXPERT_SCORE,
         'dataset_url':'http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco/halfcheetah_medium.hdf5'
