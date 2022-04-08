@@ -9,7 +9,7 @@ D4RL is an open-source benchmark for offline reinforcement learning. It provides
 
 D4RL can be installed by cloning the repository as follows:
 ```
-git clone https://github.com/rail-berkeley/d4rl.git
+git clone https://github.com/bstadie/d4rl.git
 cd d4rl
 pip install -e .
 ```
